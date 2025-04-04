@@ -1,0 +1,244 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 0%);
+    color: #333;
+    display: flex;
+}
+
+.vertical-header {
+    width: 60px;
+    height: 100vh;
+    background-color: rgba(45, 48, 53, 0.7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: fixed;
+    transition: 0.25s ease-in-out;
+}
+
+.vertical-header:hover{
+    width:200px;
+}
+
+.vertical-header a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-left: 1cm;
+    transition: 0.25s ease-in-out;
+}
+
+.vertical-header a:hover {
+    display: block;
+    background-color: rgb(5, 93, 128);
+    padding-left: 2cm;
+    width: 4cm ;
+}
+
+.vertical-header h2 {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    width: 100%;
+    text-align: left;
+    margin-left: 1cm;
+    transition: 0.25s ease-in-out;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: background 0.3s;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu-item:hover {
+    background-color: rgb(5, 93, 128);
+    color: rgb(0, 0, 0);
+}
+
+.icon {
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+}
+
+.text {
+    white-space:wrap;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.vertical-header:hover .text {
+    opacity: 1;
+}
+
+.vertical-header:hover .icon{
+    opacity: 0;
+}
+
+img{
+    margin-left: 150px;
+    margin-top: 225px;
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.content {
+    margin-left: 150px;
+    margin-right: 50px;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 125%;
+    color: rgb(5, 93, 128);
+}
+
+footer {
+    background: rgba(45, 48, 53, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transition:0.25s ease-in-out;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+footer:hover{
+    opacity:1;
+}
+h2.title{
+    margin: 250px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200%;
+}
+
+.tile-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px;
+    max-width: 80%;
+}
+
+.tile {
+    background: rgba(194, 181, 181, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.25s;
+}
+
+.tile:hover {
+    transform: scale(1.05);
+    background: #333;
+    color:rgb(5, 93, 128);
+    transition: 0.25s;
+}
+
+a{
+    text-decoration: none;
+    color:white
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive columns */
+    gap: 20px;
+    width: 100%;
+    max-width: 1000%;
+    margin: auto;
+}
+
+.button-linkedin{
+    background: rgba(194, 181, 181, 0.7);
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+    transition: transform 0.25s
+}
+
+.button-linkedin:hover{
+    background: white;
+    color:rgb(5, 93, 128);
+    transition: 0.25s;
+}
+
+.button-github{
+    background: rgba(194, 181, 181, 0.7);
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+    transition: transform 0.25s
+}
+
+.button-github:hover{
+    background: white;
+    color:#0969DA;
+    transition: 0.25s;
+}
+
+.button-mail{
+    background: rgba(194, 181, 181, 0.7);
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+    transition: transform 0.25s
+}
+
+.button-mail:hover{
+    background: white;
+    color:black;
+    transition: 0.25s;
+}
+
+.button-instagram{
+    background: rgba(194, 181, 181, 0.7);
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+    transition: transform 0.25s
+}
+
+.button-instagram:hover{
+    background: white;
+    color: #E1306C;
+    transition: 0.25s;
+}
+
+.button-twitter{
+    background: rgba(194, 181, 181, 0.7);
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+    transition: transform 0.25s
+}
+
+.button-twitter:hover{
+    background: white;
+    color: #1DA1F2;
+    transition: 0.25s;
+}
