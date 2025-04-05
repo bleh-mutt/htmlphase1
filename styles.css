@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: hsl(0, 0%, 0%);
+    background-color: teal;
     color: #333;
     display: flex;
 }
@@ -11,7 +11,7 @@ body {
 .vertical-header {
     width: 60px;
     height: 100vh;
-    background-color: rgba(45, 48, 53, 0.7);
+    background-color: rgba(255, 127, 80, 0.7);
     color: white;
     display: flex;
     flex-direction: column;
@@ -34,13 +34,17 @@ body {
     text-align: left;
     margin-left: 1cm;
     transition: 0.25s ease-in-out;
+    font-family:'Roboto', sans-serif;
 }
 
 .vertical-header a:hover {
     display: block;
-    background-color: rgb(5, 93, 128);
+    background-color: rgb(196, 98, 62);
+    color: #2C3E50;
     padding-left: 2cm;
     width: 4cm ;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 .vertical-header h2 {
@@ -50,36 +54,21 @@ body {
     display: flex;
     width: 100%;
     text-align: left;
-    margin-left: 1cm;
+    margin-left: auto;
     transition: 0.25s ease-in-out;
-}
-
-.menu-item {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    transition: background 0.3s;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.menu-item:hover {
-    background-color: rgb(5, 93, 128);
-    color: rgb(0, 0, 0);
 }
 
 .icon {
     font-size: 20px;
     width: 30px;
     text-align: center;
+    transition:0.25s;
 }
 
 .text {
     white-space:wrap;
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.25s;
 }
 
 .vertical-header:hover .text {
@@ -105,11 +94,11 @@ img{
     padding: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 125%;
-    color: rgb(5, 93, 128);
+    color: rgb(235, 142, 109);
 }
 
 footer {
-    background: rgba(45, 48, 53, 0.7);
+    background: rgba(255, 127, 80, 0.7);
     color: white;
     text-align: center;
     padding: 10px;
@@ -127,7 +116,7 @@ footer:hover{
 }
 h2.title{
     margin: 250px;
-    color: aliceblue;
+    color: #2C3E50;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 200%;
 }
@@ -140,41 +129,40 @@ h2.title{
 }
 
 .tile {
-    background: rgba(194, 181, 181, 0.7); /* Semi-transparent background */
+    border: 2px solid rgba(194, 181, 181);
+    border-radius: 40px;
     padding: 20px;
     text-align: center;
-    border-radius: 10px;
-    transition: transform 0.25s;
+    transition: 0.25s ease-in-out;
 }
 
 .tile:hover {
-    transform: scale(1.05);
-    background: #333;
+    background: coral;
     color:rgb(5, 93, 128);
-    transition: 0.25s;
+    border:2px solid teal;
 }
 
 a{
     text-decoration: none;
-    color:white
+    color:white;
 }
 
 .button-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive columns */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 20px;
     width: 100%;
     max-width: 1000%;
     margin: auto;
+    background: teal;
 }
 
 .button-linkedin{
-    background: rgba(194, 181, 181, 0.7);
     padding: 20px;
     text-align: center;
     font-size: 50px;
-    border-radius: 10px;
-    transition: transform 0.25s
+    border-radius: 25px;
+    transition: 0.25s
 }
 
 .button-linkedin:hover{
@@ -184,12 +172,11 @@ a{
 }
 
 .button-github{
-    background: rgba(194, 181, 181, 0.7);
     padding: 20px;
     text-align: center;
     font-size: 50px;
-    border-radius: 10px;
-    transition: transform 0.25s
+    border-radius: 25px;
+    transition: 0.25s
 }
 
 .button-github:hover{
@@ -199,12 +186,11 @@ a{
 }
 
 .button-mail{
-    background: rgba(194, 181, 181, 0.7);
     padding: 20px;
     text-align: center;
     font-size: 50px;
-    border-radius: 10px;
-    transition: transform 0.25s
+    border-radius: 25px;
+    transition: 0.25s
 }
 
 .button-mail:hover{
@@ -214,12 +200,11 @@ a{
 }
 
 .button-instagram{
-    background: rgba(194, 181, 181, 0.7);
     padding: 20px;
     text-align: center;
     font-size: 50px;
-    border-radius: 10px;
-    transition: transform 0.25s
+    border-radius: 25px;
+    transition: 0.25s
 }
 
 .button-instagram:hover{
@@ -229,12 +214,11 @@ a{
 }
 
 .button-twitter{
-    background: rgba(194, 181, 181, 0.7);
     padding: 20px;
     text-align: center;
     font-size: 50px;
-    border-radius: 10px;
-    transition: transform 0.25s
+    border-radius: 25px;
+    transition: 0.25s
 }
 
 .button-twitter:hover{
