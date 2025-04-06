@@ -18,7 +18,7 @@ A simple multi-page website built using HTML and CSS. This project serves as an 
    cd htmlphase1
 Open index.html in a browser to view the website.
 
-💡 Features
+###💡 Features
 Static website with multiple pages
 
 Navigation links for seamless browsing
@@ -27,12 +27,12 @@ External stylesheet for consistent design
 
 Ideal for beginners learning HTML/CSS
 
-📸 Preview
+####📸 Preview
 Add screenshots here if available
 
-🧾 License
+#####🧾 License
 This project is open-sourced under the MIT License. You are free to use, modify, and share it.
 
-✨ Author
+######✨ Author
 Built by @bleh-mutt
 
