@@ -12,8 +12,12 @@ A simple multi-page website built with HTML and CSS, designed as a beginner web 
 
 ## 🚀 Getting Started
 
+To view the site locally:
+
+```bash
 git clone https://github.com/bleh-mutt/htmlphase1.git
 cd htmlphase1
+```
 
 Then open any `.html` file in your browser.
 
