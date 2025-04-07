@@ -10,16 +10,21 @@ A simple multi-page website built with HTML and CSS, designed as a beginner web 
 - `projects.html` — Project showcase  
 - `styles.css` — Common stylesheet for all pages  
 
-## 🚀 Getting Started
+## 🚀 Going Through
 
-To view the site locally:
+https://bleh-mutt.github.io/htmlphase1/
 
-```bash
-git clone https://github.com/bleh-mutt/htmlphase1.git
-cd htmlphase1
-```
+-This website incorporates numerous html and css elements.
+-The site uses a vertical header to navigate between webpages.
+-There is a footer present in every page for copywrite reasons.
+-Tiles are include in some webpages to direct the user to other websites or documents.
+-Flex displays are used in many elements to share space with other elements.
+-Block displays are also used to maintain its position in the page even after other elements appear.
+-For better fonts and symbols, some online css stylesheets are also included in this website.
+-For better smooth movement and ease of access, transitions are applied in various elements.
+-The website is currently developed with laptop and desktop screens in consideration.
+-The goal of this website focuses more on appearances rather than the content, hence the documents this website redirects are only dummy/demo documents.
 
-Then open any `.html` file in your browser.
 
 ## 🎯 Features
 
