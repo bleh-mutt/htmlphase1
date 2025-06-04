@@ -17,7 +17,7 @@ A simple multi-page website built with HTML and CSS, designed as a beginner web 
 - This website incorporates numerous HTML and CSS elements.
 - The site uses a vertical header to navigate between webpages.
 - There is a footer present in every page for copyright reasons.
-- Tiles are include in some webpages to direct the user to other websites or documents.
+- Tiles are included in some webpages to direct the user to other websites or documents.
 - Flex displays are used in many elements to share space with other elements.
 - Block displays are also used to maintain its position in the page even after other elements appear.
 - For better fonts and symbols, some online css stylesheets are also included in this website.
